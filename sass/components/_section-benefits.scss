@@ -1,0 +1,96 @@
+/*-------- section benefits - переваги ---------*/
+
+.benefits {
+    display: flex;
+    margin-bottom: 0;
+    list-style: none;
+}   
+
+
+.benefits__item {
+    margin-right: 30px;
+    width: 270px;
+
+         &:last-child {
+             margin-right: 0px;
+         }
+}
+
+/* svg benefits */
+.benefits__item::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background: $second-background;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.antenna::before {
+    background-image: url(../img/after_header/antenna\ .svg);
+}
+
+.clock::before {
+    background-image: url(../img/after_header/clock\ .svg);
+}
+
+.diagram::before {
+    background-image: url(../img/after_header/diagram.svg);
+}
+
+.astronaut::before {
+    background-image: url(../img/after_header/astronaut\ .svg);
+}
+
+
+.benefits__title {
+    text-align: center;
+    
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: $text-title-color;
+    letter-spacing: 0.03em;
+}
+
+.benefits__text {
+    
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-bottom: 0;
+}
+
+
+
+
+ /*-------- section benefits  переваги ---------*/
+         /*-------- telephon ---------*/
+       
+
+// .benefits {
+//        display: block;
+//         margin: 0;
+//         list-style: none;
+//         align-items: center;
+
+//         @media screen and (min-width: 480px) {
+//            width: 480px;
+//         }
+// }
+
+// .benefits__item {
+//     margin-bottom: 30px;
+
+//            &:last-child {
+//                 margin-bottom: 0px;   
+//             }
+
+//     @media screen and (min-width: 479px) {
+//             width: 480px;
+//         }
+    
+// }

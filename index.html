@@ -7,36 +7,47 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./dist/css/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <header class="header">
         <div class="container head"> 
            <nav class="head__main">
-                   <a href="./index.html" class="logo"><span>Web<span class="bg-logo">Studio</span></span></a>
-            <ul class="header__menu">
-                <li class="item"><a class="menu current" href="./studio.html">Студія</a></li>
-                <li class="item"><a class="menu" href="./portfolio.html">Портфоліо</a></li>
-                <li class="item"><a class="menu" href="Контакти">Контакти</a></li>
+                <a href="./index.html" class="logo"><span>Web<span class="bg-logo">Studio</span></span></a>
+                   <!-- <button type="button" class="menu-tel" 
+                                          aria-expanded="false"
+                                      aria-controls="window-menu"
+                                         data-menu-button>
+                      <svg width="40" height="40"  aria-label="мобильное меню">
+                        <use class="icon-menu" href="./img/symbol-defs.svg#icon-menu_40px"></use>
+                        <use class="icon-cross" href="./img/symbol-defs.svg#icon-close_40px"></use>
+                      </svg>
+                   </button>
+                     <div class="window-menu" id="window-menu" data-menu> -->
+                  
+            <ul class="head__menu">
+                <li class="head__item"><a class="menu current" href="index.html">Студія</a></li>
+                <li class="head__item"><a class="menu" href="./portfolio.html">Портфоліо</a></li>
+                <li class="head__item"><a class="menu" href="Контакти">Контакти</a></li>
             </ul>
-           </nav>
-        <ul class="header__contacts">
-            <li class="item">
-                <a href="mailto:info@devstudio.com" class="contact__link">
-                  <svg class="contact__icon"  width="16" height="12">
+             </nav>
+        <ul class="head__contacts">
+            <li class="head__item">
+                <a class="head__link" href="mailto:info@devstudio.com" >
+                  <svg class="head__icon"  width="16" height="12">
                       <use href="./img/icons.svg#icon-envelope"></use>
                   </svg>info@devstudio.com
                 </a>
             </li>
-            <li class="item">
-                <a href="tel:+380961111111" class="contact__link">
-                   <svg class="contact__icon" width="10" height="16">
+            <li class="head__item">
+                <a class="head__link" href="tel:+380961111111">
+                   <svg class="head__icon" width="10" height="16">
                      <use href="./img/icons.svg#icon-Vector"></use>
                    </svg>+380961111111
                 </a>
             </li>
-        </ul>
+         </ul>
+         </div> 
         </div>
     </header>
 <main>
@@ -129,31 +140,26 @@
             </ul>
         </div>
            
+              
         <div class="container">
             <ul class="services">
                 <li class="services__img">
                     <img src="./img/h2/img.jpg" alt="айпад в руці" width="370">
-                    <ul class="services__info">
-                        <li><a class="services__text" href="">Десктопні додатки</a></li>
-                    </ul>
-                </li>
+                     <p  class="services__text">Десктопні додатки</p>
+                </li>     
                 <li class="services__img">
                     <img src="./img/h2/img-2.jpg" alt="Телефон та компьютер" width="370">
-                    <ul class="services__info">
-                        <li><a class="services__text" href="">Мобільні додатки</a></li>
-                    </ul>
+                    <p  class="services__text">Десктопні додатки</p>
                 </li>
                 <li class="services__img">
                     <img src="./img/h2/img-3.jpg" alt="пише код на клавіатурі" width="370">
-                    <ul class="services__info">
-                        <li><a class="services__text" href="">Дизайнерські рішення</a></li>
-                    </ul>
+                   <p  class="services__text">Десктопні додатки</p>
                 </li>
             </ul>
         </div>
    </section>
 
-   <section class="command">
+    <section class="command">
       <div class="container section">
           <h2 class="team-title">Наша команда</h2>
         <ul class="member-team"> 
@@ -199,9 +205,9 @@
                 <li class="member">
                 <img src="./img/h3/img.jpg" alt="світловолоса жінка" width="270">
                 <div class="member__info">
-                    <h3 class="cmember__title">Ольга Рєпіна</h3>
+                    <h3 class="member__title">Ольга Рєпіна</h3>
                     <p class="member__text">Frontend Developer</p>
-                    <ul class="member-team"> 
+                    <ul class="member__list"> 
 
                      <li class="member__item">
                          <a class="member__link" href="">
@@ -238,7 +244,7 @@
                     <div class="member__info">
                     <h3 class="member__title">Микола Тарасов</h3>
                     <p class="member__text">Marketing</p>
-                    <ul class="member-team"> 
+                    <ul class="member__list"> 
 
                      <li class="member__item">
                          <a class="member__link" href="">
@@ -276,7 +282,7 @@
                     <div class="member__info">
                         <h3 class="member__title">Михайло Єрмаков</h3>
                         <p class="member__text">UI Designer</p>
-                    <ul class="member-team"> 
+                    <ul class="member__list"> 
 
                      <li class="member__item">
                          <a class="member__link" href="">
@@ -365,15 +371,12 @@
         </section>
     </main>
 
-
-
-
     <footer class="footer">
         <div class="container">
           <div class="footer__contain">
 
             <div class="footer__contacts">
-                <a href="./index.html" class="logo-footer"><span>Web<span class="bg-logo footer">Studio</span></span></a>
+                 <a href="./index.html" class="logo"><span>Web<span class="bg-logo-footer">Studio</span></span></a>
                 <address>
                     <ul class="footer__link">
                         <li>
@@ -391,58 +394,59 @@
             </div>
 
             <div class="container footer__social">
-                <h2 class="add-up">приєднуйтесь</h2>
-                <ul class="footer__social-block">
-                    <li class="footer__soc-item">
-                        <a class="footer-team-link" href="">
-                            <svg class="footer-icon-links">
+                <h2 class="footer__add-up">приєднуйтесь</h2>
+                <ul class="social-block">
+                    <li class="social-block__item">
+                        <a class="social-block__link" href="">
+                            <svg class="social-block__icon">
                                 <use href="./img/icons.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer__soc-item">
-                        <a class="footer-team-link" href="">
-                            <svg class="footer-icon-links">
+                    <li class="social-block__item">
+                        <a class="social-block__link" href="">
+                            <svg class="social-block__icon">
                                 <use href="./img/icons.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer__soc-item">
-                        <a class="footer-team-link" href="">
-                            <svg class="footer-icon-links">
+                    <li class="social-block__item">
+                        <a class="social-block__link" href="">
+                            <svg class="social-block__icon">
                                 <use href="./img/icons.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer__soc-item">
-                        <a class="footer-team-link" href="">
-                            <svg class="footer-icon-links">
+                    <li class="social-block__item">
+                        <a class="social-block__link" href="">
+                            <svg class="social-block__icon">
                                 <use href="./img/icons.svg#icon-linkedin"></use>
                             </svg>
                         </a>
                     </li>
                 </ul>
               </div>
-              <div class="form-telegram">
-                    <h2 class="telegram-text">Підпишіться на розсилку</h2>
-                        <form class="telegram" action>
-                            <input  class="input-telegram"type="email" name="email" id="email" placeholder="E-mail" />
-                            <button class="telegram-buton" type="button">Підписатися</button>
-                            <span class="telegram-icon"></span>
-                        </form>
+              <div class="telegram">
+                        <h2 class="telegram__text">Підпишіться на розсилку</h2>
+                    <form class="telegram__form" action>
+                        <input  class="telegram__input"type="email" name="email" id="email" placeholder="E-mail" />
+                        <button class="telegram__button-footer" type="button">Підписатися</button>
+                        <span class="telegram__icon"></span>
+                    </form>
               </div>  
             </div>
           </div>
         </div>
-    </footer>
-    <script>const { height: pegaHeaderHeight } = document
-    .querySelector(".page-header")
-    .getBoundingClientRect();
-    document .body .style .paddingTop = ${pegaHeaderHeight}px ;
-    </script>
-    <script src="./js/modal.js"></script>
-    </body>
-    </html>
+       </footer>
+          <script>const { height: pegaHeaderHeight } = document
+               .querySelector(".page-header")
+               .getBoundingClientRect();
+               document.body.style.paddingTop = ${pegaHeaderHeight}px ;
+           </script>
+         <script src="./js/modal.js"></script>
+         <script src="./js/menu.js"></script>
+   </body>
+</html>
 
 
 
