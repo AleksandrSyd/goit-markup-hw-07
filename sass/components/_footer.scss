@@ -4,32 +4,22 @@
     background-color: $background-hero;
 }
 
-.footer__contain {
+.footer__contain-block {
     display: flex;
     padding: 60px 0;
     align-items: baseline;
-
-    //     @media screen and (max-width: 768px) {
-    //         display: block; 
-    // }
-
 }
 
-.footer__contacts {
+.contain-block__footer-contacts {
     margin-right: 70px;     
 
-    //     @media screen and (max-width: 768px) {
-    //         margin: 0;
-    //         text-align: center;
-    
-    // }
-
 }
 
-
-
-.footer__link {
+.footer-contacts {
     display: inline-block;
+}
+
+.footer-contacts__link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -44,14 +34,11 @@
         &:hover {
             color: $secretion-color;
          }
-        
-    // @media screen and (max-width: 480px) {
-    //     margin: 0;                
-    // }
+  
 }
 
 
-.footer__address {
+.footer-contacts__address {
     color: $hero-color;
     text-decoration: none;
     font-style: normal;
@@ -67,24 +54,19 @@
            &:focus {
                color: $secretion-color;
           }
-    //  @media screen and (max-width: 480px) {
-    //     margin: 0;
-    // }
 }
+
+
 
 
 /* container приєднуйтесь */
 
-.footer__social {
+.footer__social-block {
     padding: 0;
     margin: 0;
-              
-    //  @media screen and (max-width: 480px) {
-    //     display: block;
-    //     }
 }
 
-.footer__add-up {
+.social-block__add-up {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -93,19 +75,13 @@
     color: $hero-color;
     margin-bottom: 20px;
 
-    // @media screen and (max-width: 479px) {
-    //     display: block;
-
-    // }
-
    }
+
 
 /* social  */
 
 .social-block {
     display: inline-flex;
-    margin-bottom: 0;
-
 }
 
 .social-block__item {
@@ -173,23 +149,12 @@
     justify-content: flex-end;
     margin-left: auto;
 
-    // @media screen and (max-width: 768px) {
-    //     justify-content: center;
-    //         display: block;
-    //     } 
 }
 
 
 .telegram__form {
     display: flex;
     position: relative;
-
-    // @media screen and (max-width: 768px) {
-    //         display: block;
-    //         justify-content: center;
-           
-    // }
-
 
 }
 
@@ -217,13 +182,6 @@
     border-radius: 4px;
     background-color: transparent;
 
-    // @media screen and (max-width: 768px) {
-    //       margin-bottom: 20px;
-    //       width: 100%;
-    //       align-content: center;
-            
-    //     }
-
 }
 
 .telegram__form input {
@@ -243,11 +201,7 @@
 
     color: $hero-color;
       
-    
-    // @media screen and (max-width: 768px) {
-    //     text-align: center;
-    //     }
-        
+  
 }
 
 
@@ -272,11 +226,6 @@
     margin-left: 10px;
     color: $hero-color;
 
-    // @media screen and (max-width: 768px) {
-    //         display: block;
-    //         justify-content: center;
-    //     }
-
 }
 
 .telegram__form button {
@@ -295,17 +244,11 @@
     right: 28px;
     top: 25%;
 
-        // @media screen and (max-width: 768px) {
-           
-        // }
   }
 
   .footer__add-up {
       text-align: center;  
 
-    // @media screen and (min-width: 479px) {
-
-    // }
 }
 
 

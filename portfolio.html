@@ -40,22 +40,22 @@
         </div>
     </header>
     <main>
-    <section>
+    <section class="filter">
         <div class="container section">
-        <ul class="second-button">
-            <li class="item">
+        <ul class="filter__list">
+            <li class="filter__item">
                 <button type="button" class="button">Усі</button>
             </li>
-            <li class="item">
+            <li class="filter__item">
                 <button type="button" class="button">Веб-сайти</button>
             </li>
-            <li class="item">
+            <li class="filter__item">
                 <button type="button" class="button">Додатки</button>
             </li>
-            <li class="item">
+            <li class="filter__item">
                 <button type="button" class="button">Дизайн</button>
             </li>
-            <li class="item">
+            <li class="filter__item">
                 <button type="button" class="button">Маркетинг</button>
             </li>
         </ul>
@@ -200,73 +200,73 @@
    </section>
 </main>
 
- <footer class="footer">
-        <div class="container">
-          <div class="footer__contain">
+<footer class="footer">
+    <div class="container">
+      <div class="footer__contain-block">
 
-            <div class="footer__contacts">
-                 <a href="./index.html" class="logo"><span>Web<span class="bg-logo-footer">Studio</span></span></a>
-                <address>
-                    <ul class="footer__link">
-                        <li>
-                            <a href="https://goo.gl/maps/AqYwmnDAayiFbczU9" rel="noopener noreferrer" target="_blank"
-                                class="footer__address">м. Київ, пр-т Лесі Українки, 26</a>
-                        </li>
-                        <li>
-                            <a href="mailto:info@devstudio.com" class="footer__link">info@devstudio.com</a>
-                        </li>
-                        <li>
-                            <a href="tel:+380961111111" class="footer__link">+380961111111</a>
-                        </li>
-                    </ul>
-                </address>
-            </div>
-
-            <div class="container footer__social">
-                <h2 class="footer__add-up">приєднуйтесь</h2>
-                <ul class="social-block">
-                    <li class="social-block__item">
-                        <a class="social-block__link" href="">
-                            <svg class="social-block__icon">
-                                <use href="./img/icons.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
+        <div class="contain-block__footer-contacts">
+             <a href="./index.html" class="logo"><span>Web<span class="bg-logo-footer">Studio</span></span></a>
+            <address>
+                <ul class="footer-contacts">
+                    <li>
+                        <a href="https://goo.gl/maps/AqYwmnDAayiFbczU9" rel="noopener noreferrer" target="_blank"
+                            class="footer-contacts__address">м. Київ, пр-т Лесі Українки, 26</a>
                     </li>
-                    <li class="social-block__item">
-                        <a class="social-block__link" href="">
-                            <svg class="social-block__icon">
-                                <use href="./img/icons.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
+                    <li>
+                        <a href="mailto:info@devstudio.com" class="footer-contacts__link">info@devstudio.com</a>
                     </li>
-                    <li class="social-block__item">
-                        <a class="social-block__link" href="">
-                            <svg class="social-block__icon">
-                                <use href="./img/icons.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="social-block__item">
-                        <a class="social-block__link" href="">
-                            <svg class="social-block__icon">
-                                <use href="./img/icons.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
+                    <li>
+                        <a href="tel:+380961111111" class="footer-contacts__link">+380961111111</a>
                     </li>
                 </ul>
-              </div>
-              <div class="telegram">
-                        <h2 class="telegram__text">Підпишіться на розсилку</h2>
-                    <form class="telegram__form" action>
-                        <input  class="telegram__input"type="email" name="email" id="email" placeholder="E-mail" />
-                        <button class="telegram__button-footer" type="button">Підписатися</button>
-                        <span class="telegram__icon"></span>
-                    </form>
-              </div>  
-            </div>
-          </div>
+            </address>
         </div>
-       </footer>
+
+        <div class=" footer__social-block">
+            <h2 class="social-block__add-up">приєднуйтесь</h2>
+            <ul class="social-block">
+                <li class="social-block__item">
+                    <a class="social-block__link" href="">
+                        <svg class="social-block__icon">
+                            <use href="./img/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-block__item">
+                    <a class="social-block__link" href="">
+                        <svg class="social-block__icon">
+                            <use href="./img/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-block__item">
+                    <a class="social-block__link" href="">
+                        <svg class="social-block__icon">
+                            <use href="./img/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-block__item">
+                    <a class="social-block__link" href="">
+                        <svg class="social-block__icon">
+                            <use href="./img/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+          </div>
+        <div class="telegram">
+                    <h2 class="telegram__text">Підпишіться на розсилку</h2>
+                <form class="telegram__form" action>
+                    <input  class="telegram__input"type="email" name="email" id="email" placeholder="E-mail" />
+                    <button class="telegram__button-footer" type="button">Підписатися</button>
+                    <span class="telegram__icon"></span>
+                </form>
+          </div>  
+        </div>
+      </div>
+    </div>
+   </footer>
    </body>
 </html>
 

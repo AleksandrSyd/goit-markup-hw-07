@@ -1,7 +1,7 @@
 
 /*------- about us ------------*/
 
-.services {
+.services__list {
     padding-bottom: 94px;
     display: flex;
     margin: 0;
@@ -11,14 +11,10 @@
                margin-right: 0;
                line-height: 0;
           }
-
-//        @media screen and (max-width: 768px) {
-//              display: none;
-//    }
 }
 
 
-.services__img {
+.services__item {
     display: inline-block;
     margin-right: 30px;
     position: relative;
@@ -29,7 +25,7 @@
 }
 
 
-.services__text {
+.services__title {
     display: block;
     font-weight: 700;
     font-size: 14px;

@@ -1,12 +1,12 @@
 /*---------- section portfolio -----------------*/
 
-.second-button {
+.filter__list {
     display: flex;
     margin-bottom: 50px;
     justify-content: center;
 }
 
-.second-button .item+.item {
+.filter__list .filter__item+.filter__item {
     margin-left: 8px;
 }
 
@@ -21,7 +21,7 @@
     border-radius: 4px;
     padding: 6px 22px;
     background-color: $second-background;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
             &:focus,
             &:hover {
@@ -45,7 +45,6 @@
 
 
 .portfolio__item {
-
     width: 370px;
     line-height: 0;
     overflow: hidden;
@@ -54,8 +53,8 @@
     background: $hero-color;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-           .portfolio__item:hover,
-           .portfolio__item:focus-within {
+           &:hover,
+           &:focus-within {
                border: 1px solid #EEEEEE;
                box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
            }
