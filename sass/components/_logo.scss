@@ -7,15 +7,9 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    display: inline-block;
-    padding-top: 24px;
-    padding-bottom: 25px;
-
-
-
-    .bg-logo {
-        color: $logo-color;
-    }
+    display: inline-flex;
+    align-items: center;
+ 
 
     .bg-logo {
         color: $logo-color;
@@ -24,4 +18,8 @@
     .bg-logo-footer {
         color: $hero-color;
     }
+}
+
+.contain-block__logo {
+    margin-bottom: 20px;
 }
